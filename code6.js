@@ -52,7 +52,7 @@ gdjs.Claim_32ReferralCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBu
 }if ( gdjs.Claim_32ReferralCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Claim_32ReferralCode.conditionTrue_1 = gdjs.Claim_32ReferralCode.condition1IsTrue_0;
-gdjs.Claim_32ReferralCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17107772);
+gdjs.Claim_32ReferralCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18664100);
 }
 }}
 if (gdjs.Claim_32ReferralCode.condition1IsTrue_0.val) {
