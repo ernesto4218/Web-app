@@ -48,7 +48,7 @@ gdjs.clockCode.condition1IsTrue_1 = {val:false};
 gdjs.clockCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0x1019678 = function(runtimeScene) {
+gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0xc28938 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -143,7 +143,7 @@ gdjs.clockCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.clockCode.condition0IsTrue_0.val ) {
 {
 {gdjs.clockCode.conditionTrue_1 = gdjs.clockCode.condition1IsTrue_0;
-gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18896500);
+gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17283404);
 }
 }}
 if (gdjs.clockCode.condition1IsTrue_0.val) {
@@ -164,7 +164,7 @@ gdjs.clockCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.clockCode.condition0IsTrue_0.val ) {
 {
 {gdjs.clockCode.conditionTrue_1 = gdjs.clockCode.condition1IsTrue_0;
-gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18897956);
+gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17284300);
 }
 }}
 if (gdjs.clockCode.condition1IsTrue_0.val) {
@@ -184,7 +184,7 @@ if (gdjs.clockCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.clockCode.userFunc0x1019678(runtimeScene);
+gdjs.clockCode.userFunc0xc28938(runtimeScene);
 
 }
 

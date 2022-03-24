@@ -163,7 +163,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leaderboard"), gdjs.LoadDataTestCode.GDL
 gdjs.LoadDataTestCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LoadDataTestCode.conditionTrue_1 = gdjs.LoadDataTestCode.condition0IsTrue_0;
-gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18094260);
+gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16752092);
 }
 }if (gdjs.LoadDataTestCode.condition0IsTrue_0.val)
 {
@@ -185,7 +185,7 @@ gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 
 
-};gdjs.LoadDataTestCode.userFunc0xffe788 = function(runtimeScene) {
+};gdjs.LoadDataTestCode.userFunc0xc51a10 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -270,7 +270,7 @@ gdjs.LoadDataTestCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.LoadDataTestCode.userFunc0xffe788(runtimeScene);
+gdjs.LoadDataTestCode.userFunc0xc51a10(runtimeScene);
 
 }
 
@@ -342,7 +342,7 @@ gdjs.LoadDataTestCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.LoadDataTestCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LoadDataTestCode.conditionTrue_1 = gdjs.LoadDataTestCode.condition1IsTrue_0;
-gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18132956);
+gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16778076);
 }
 }}
 if (gdjs.LoadDataTestCode.condition1IsTrue_0.val) {
