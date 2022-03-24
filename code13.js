@@ -199,7 +199,7 @@ gdjs.copyArray(runtimeScene.getObjects("close"), gdjs.VerificationFormCode.GDclo
 }
 
 
-};gdjs.VerificationFormCode.userFunc0xcf6d40 = function(runtimeScene) {
+};gdjs.VerificationFormCode.userFunc0x10f46d0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -270,7 +270,7 @@ gdjs.VerificationFormCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.VerificationFormCode.userFunc0xcf6d40(runtimeScene);
+gdjs.VerificationFormCode.userFunc0x10f46d0(runtimeScene);
 
 }
 

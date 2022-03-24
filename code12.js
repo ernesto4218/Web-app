@@ -598,11 +598,11 @@ gdjs.copyArray(runtimeScene.getObjects("LoginStatusText"), gdjs.LoginCode.GDLogi
 gdjs.LoginCode.condition0IsTrue_0.val = false;
 gdjs.LoginCode.condition1IsTrue_0.val = false;
 {
-gdjs.LoginCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("LoginStatus")) == "The password is invalid or the user does not have a password";
+gdjs.LoginCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("LoginStatus")) == "The password is invalid or the user does not have a password.";
 }if ( gdjs.LoginCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LoginCode.conditionTrue_1 = gdjs.LoginCode.condition1IsTrue_0;
-gdjs.LoginCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17580684);
+gdjs.LoginCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10738796);
 }
 }}
 if (gdjs.LoginCode.condition1IsTrue_0.val) {
