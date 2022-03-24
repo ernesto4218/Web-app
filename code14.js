@@ -50,6 +50,9 @@ gdjs.JoinGCCode.GDClaimrewardObjects3= [];
 gdjs.JoinGCCode.GDredeemObjects1= [];
 gdjs.JoinGCCode.GDredeemObjects2= [];
 gdjs.JoinGCCode.GDredeemObjects3= [];
+gdjs.JoinGCCode.GDViewProfileObjects1= [];
+gdjs.JoinGCCode.GDViewProfileObjects2= [];
+gdjs.JoinGCCode.GDViewProfileObjects3= [];
 gdjs.JoinGCCode.GDexitObjects1= [];
 gdjs.JoinGCCode.GDexitObjects2= [];
 gdjs.JoinGCCode.GDexitObjects3= [];
@@ -159,7 +162,7 @@ gdjs.JoinGCCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumbe
 }
 
 
-};gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDexitObjects1Objects = Hashtable.newFrom({"exit": gdjs.JoinGCCode.GDexitObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDredeemObjects1Objects = Hashtable.newFrom({"redeem": gdjs.JoinGCCode.GDredeemObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDClaimrewardObjects1Objects = Hashtable.newFrom({"Claimreward": gdjs.JoinGCCode.GDClaimrewardObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDredeemObjects1Objects = Hashtable.newFrom({"redeem": gdjs.JoinGCCode.GDredeemObjects1});gdjs.JoinGCCode.eventsList1 = function(runtimeScene) {
+};gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDexitObjects1Objects = Hashtable.newFrom({"exit": gdjs.JoinGCCode.GDexitObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDredeemObjects1Objects = Hashtable.newFrom({"redeem": gdjs.JoinGCCode.GDredeemObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDClaimrewardObjects1Objects = Hashtable.newFrom({"Claimreward": gdjs.JoinGCCode.GDClaimrewardObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDredeemObjects1Objects = Hashtable.newFrom({"redeem": gdjs.JoinGCCode.GDredeemObjects1});gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDViewProfileObjects1Objects = Hashtable.newFrom({"ViewProfile": gdjs.JoinGCCode.GDViewProfileObjects1});gdjs.JoinGCCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -176,6 +179,7 @@ gdjs.JoinGCCode.condition0IsTrue_0.val = false;
 gdjs.JoinGCCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.JoinGCCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("GlobalID"), gdjs.JoinGCCode.GDGlobalIDObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ViewProfile"), gdjs.JoinGCCode.GDViewProfileObjects1);
 gdjs.copyArray(runtimeScene.getObjects("exit"), gdjs.JoinGCCode.GDexitObjects1);
 gdjs.copyArray(runtimeScene.getObjects("redeem"), gdjs.JoinGCCode.GDredeemObjects1);
 {for(var i = 0, len = gdjs.JoinGCCode.GDexitObjects1.length ;i < len;++i) {
@@ -183,6 +187,9 @@ gdjs.copyArray(runtimeScene.getObjects("redeem"), gdjs.JoinGCCode.GDredeemObject
 }
 }{for(var i = 0, len = gdjs.JoinGCCode.GDredeemObjects1.length ;i < len;++i) {
     gdjs.JoinGCCode.GDredeemObjects1[i].setOpacity(0);
+}
+}{for(var i = 0, len = gdjs.JoinGCCode.GDViewProfileObjects1.length ;i < len;++i) {
+    gdjs.JoinGCCode.GDViewProfileObjects1[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.JoinGCCode.GDGlobalIDObjects1.length ;i < len;++i) {
     gdjs.JoinGCCode.GDGlobalIDObjects1[i].setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("GlobalID")));
@@ -500,6 +507,39 @@ gdjs.copyArray(runtimeScene.getObjects("redeem"), gdjs.JoinGCCode.GDredeemObject
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ViewProfile"), gdjs.JoinGCCode.GDViewProfileObjects1);
+
+gdjs.JoinGCCode.condition0IsTrue_0.val = false;
+gdjs.JoinGCCode.condition1IsTrue_0.val = false;
+gdjs.JoinGCCode.condition2IsTrue_0.val = false;
+{
+gdjs.JoinGCCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.JoinGCCode.mapOfGDgdjs_46JoinGCCode_46GDViewProfileObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.JoinGCCode.condition0IsTrue_0.val ) {
+{
+gdjs.JoinGCCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if ( gdjs.JoinGCCode.condition1IsTrue_0.val ) {
+{
+{gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition2IsTrue_0;
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14745220);
+}
+}}
+}
+if (gdjs.JoinGCCode.condition2IsTrue_0.val) {
+{gdjs.evtTools.window.openURL("https://www.facebook.com/profile.php?id=100073624475167", runtimeScene);
+}}
+
+}
+
+
 };
 
 gdjs.JoinGCCode.func = function(runtimeScene) {
@@ -556,6 +596,9 @@ gdjs.JoinGCCode.GDClaimrewardObjects3.length = 0;
 gdjs.JoinGCCode.GDredeemObjects1.length = 0;
 gdjs.JoinGCCode.GDredeemObjects2.length = 0;
 gdjs.JoinGCCode.GDredeemObjects3.length = 0;
+gdjs.JoinGCCode.GDViewProfileObjects1.length = 0;
+gdjs.JoinGCCode.GDViewProfileObjects2.length = 0;
+gdjs.JoinGCCode.GDViewProfileObjects3.length = 0;
 gdjs.JoinGCCode.GDexitObjects1.length = 0;
 gdjs.JoinGCCode.GDexitObjects2.length = 0;
 gdjs.JoinGCCode.GDexitObjects3.length = 0;
