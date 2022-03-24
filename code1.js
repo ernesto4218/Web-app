@@ -2869,7 +2869,7 @@ gdjs.copyArray(runtimeScene.getObjects("Jointhegroup"), gdjs.HomeCode.GDJointheg
 
 };gdjs.HomeCode.eventsList28 = function(runtimeScene) {
 
-};gdjs.HomeCode.userFunc0x9fa890 = function(runtimeScene) {
+};gdjs.HomeCode.userFunc0xc46b80 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -3024,7 +3024,7 @@ gdjs.HomeCode.eventsList28(runtimeScene);
 {
 
 
-gdjs.HomeCode.userFunc0x9fa890(runtimeScene);
+gdjs.HomeCode.userFunc0xc46b80(runtimeScene);
 
 }
 
