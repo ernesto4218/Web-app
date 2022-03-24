@@ -2869,7 +2869,7 @@ gdjs.copyArray(runtimeScene.getObjects("Jointhegroup"), gdjs.HomeCode.GDJointheg
 
 };gdjs.HomeCode.eventsList28 = function(runtimeScene) {
 
-};gdjs.HomeCode.userFunc0xa3b568 = function(runtimeScene) {
+};gdjs.HomeCode.userFunc0xd7d3f8 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2914,7 +2914,38 @@ year_var.setString(year);
 
 
 };
+gdjs.HomeCode.userFunc0xd7d280 = function(runtimeScene) {
+"use strict";
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7FC6RFJ7M1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7FC6RFJ7M1');
+</script>
+};
 gdjs.HomeCode.eventsList29 = function(runtimeScene) {
+
+{
+
+
+{
+}
+
+}
+
+
+{
+
+
+gdjs.HomeCode.userFunc0xd7d280(runtimeScene);
+
+}
+
+
+};gdjs.HomeCode.eventsList30 = function(runtimeScene) {
 
 {
 
@@ -3024,8 +3055,15 @@ gdjs.HomeCode.eventsList28(runtimeScene);
 {
 
 
-gdjs.HomeCode.userFunc0xa3b568(runtimeScene);
+gdjs.HomeCode.userFunc0xd7d3f8(runtimeScene);
 
+}
+
+
+{
+
+
+gdjs.HomeCode.eventsList29(runtimeScene);
 }
 
 
@@ -3303,7 +3341,7 @@ gdjs.HomeCode.GDEventsBTNObjects2.length = 0;
 gdjs.HomeCode.GDEventsBTNObjects3.length = 0;
 gdjs.HomeCode.GDEventsBTNObjects4.length = 0;
 
-gdjs.HomeCode.eventsList29(runtimeScene);
+gdjs.HomeCode.eventsList30(runtimeScene);
 return;
 
 }
