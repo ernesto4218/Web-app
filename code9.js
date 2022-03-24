@@ -48,7 +48,7 @@ gdjs.clockCode.condition1IsTrue_1 = {val:false};
 gdjs.clockCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0x9bd628 = function(runtimeScene) {
+gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0xb51780 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -184,7 +184,7 @@ if (gdjs.clockCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.clockCode.userFunc0x9bd628(runtimeScene);
+gdjs.clockCode.userFunc0xb51780(runtimeScene);
 
 }
 
