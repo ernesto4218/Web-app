@@ -2120,7 +2120,7 @@ gdjs.CashoutCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumb
 }
 
 
-};gdjs.CashoutCode.userFunc0x1282f70 = function(runtimeScene) {
+};gdjs.CashoutCode.userFunc0x11b08c0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2403,7 +2403,7 @@ gdjs.CashoutCode.eventsList18(runtimeScene);
 {
 
 
-gdjs.CashoutCode.userFunc0x1282f70(runtimeScene);
+gdjs.CashoutCode.userFunc0x11b08c0(runtimeScene);
 
 }
 

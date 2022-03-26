@@ -797,6 +797,23 @@ gdjs.HomeCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+
+{
+{gdjs.evtTools.storage.writeStringInJSONFile("AllDataLoaded", "Loaded", "true");
+}}
+
+}
+
+
 };gdjs.HomeCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -807,6 +824,7 @@ gdjs.HomeCode.condition0IsTrue_0.val = false;
 gdjs.HomeCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.HomeCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.firebaseTools.firestore.getDocument("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), runtimeScene.getVariables().get("FetchDocData"), runtimeScene.getVariables().getFromIndex(3));
+}{gdjs.evtTools.storage.readStringFromJSONFile("AllDataLoaded", "Loaded", runtimeScene, runtimeScene.getVariables().get("StorageDataLoaded"));
 }{gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "BottomContainer", 0, 0);
 }{gdjs.evtTools.window.setFullScreen(runtimeScene, false, true);
 }{gdjs.evtTools.storage.clearJSONFile("Loginattempts");
@@ -1435,7 +1453,8 @@ gdjs.HomeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(1
 }
 }}
 if (gdjs.HomeCode.condition1IsTrue_0.val) {
-}
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Cashout");
+}}
 
 }
 
@@ -1449,8 +1468,7 @@ gdjs.HomeCode.condition0IsTrue_0.val = false;
 gdjs.HomeCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17910444);
 }
 }if (gdjs.HomeCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Cashout");
-}}
+}
 
 }
 
@@ -2849,7 +2867,7 @@ gdjs.copyArray(runtimeScene.getObjects("Jointhegroup"), gdjs.HomeCode.GDJointheg
 
 };gdjs.HomeCode.eventsList28 = function(runtimeScene) {
 
-};gdjs.HomeCode.userFunc0x121f390 = function(runtimeScene) {
+};gdjs.HomeCode.userFunc0x11952e0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -3004,7 +3022,7 @@ gdjs.HomeCode.eventsList28(runtimeScene);
 {
 
 
-gdjs.HomeCode.userFunc0x121f390(runtimeScene);
+gdjs.HomeCode.userFunc0x11952e0(runtimeScene);
 
 }
 

@@ -103,6 +103,10 @@ gdjs.LoginCode.GDLoginStatusTextObjects1= [];
 gdjs.LoginCode.GDLoginStatusTextObjects2= [];
 gdjs.LoginCode.GDLoginStatusTextObjects3= [];
 gdjs.LoginCode.GDLoginStatusTextObjects4= [];
+gdjs.LoginCode.GDLoadingObjects1= [];
+gdjs.LoginCode.GDLoadingObjects2= [];
+gdjs.LoginCode.GDLoadingObjects3= [];
+gdjs.LoginCode.GDLoadingObjects4= [];
 
 gdjs.LoginCode.conditionTrue_0 = {val:false};
 gdjs.LoginCode.condition0IsTrue_0 = {val:false};
@@ -1295,8 +1299,12 @@ gdjs.LoginCode.condition0IsTrue_0.val = !(gdjs.evtTools.firebaseTools.auth.isAut
 gdjs.LoginCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("repeatlogin")) > 5;
 }}
 if (gdjs.LoginCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Loading"), gdjs.LoginCode.GDLoadingObjects2);
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "Autologin");
 }{firebase.auth().signOut();
+}{for(var i = 0, len = gdjs.LoginCode.GDLoadingObjects2.length ;i < len;++i) {
+    gdjs.LoginCode.GDLoadingObjects2[i].getBehavior("Tween").addObjectPositionXTween("slide", -(1523), "easeOutCubic", 250, false);
+}
 }}
 
 }
@@ -1311,11 +1319,15 @@ gdjs.LoginCode.condition0IsTrue_0.val = false;
 {
 gdjs.LoginCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.LoginCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("Loading"), gdjs.LoginCode.GDLoadingObjects2);
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().get("showloading"), true);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Autologin");
 }{gdjs.evtTools.variable.variableClearChildren(runtimeScene.getGame().getVariables().getFromIndex(1));
 }{gdjs.evtTools.variable.variableClearChildren(runtimeScene.getGame().getVariables().getFromIndex(2));
 }{gdjs.evtTools.variable.variableClearChildren(runtimeScene.getGame().getVariables().getFromIndex(3));
+}{for(var i = 0, len = gdjs.LoginCode.GDLoadingObjects2.length ;i < len;++i) {
+    gdjs.LoginCode.GDLoadingObjects2[i].getBehavior("Tween").addObjectPositionXTween("slide", 0, "easeOutCubic", 250, false);
+}
 }}
 
 }
@@ -1520,6 +1532,10 @@ gdjs.LoginCode.GDLoginStatusTextObjects1.length = 0;
 gdjs.LoginCode.GDLoginStatusTextObjects2.length = 0;
 gdjs.LoginCode.GDLoginStatusTextObjects3.length = 0;
 gdjs.LoginCode.GDLoginStatusTextObjects4.length = 0;
+gdjs.LoginCode.GDLoadingObjects1.length = 0;
+gdjs.LoginCode.GDLoadingObjects2.length = 0;
+gdjs.LoginCode.GDLoadingObjects3.length = 0;
+gdjs.LoginCode.GDLoadingObjects4.length = 0;
 
 gdjs.LoginCode.eventsList10(runtimeScene);
 return;

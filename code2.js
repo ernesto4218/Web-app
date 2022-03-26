@@ -182,7 +182,7 @@ gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 
 
-};gdjs.LoadDataTestCode.userFunc0x1113910 = function(runtimeScene) {
+};gdjs.LoadDataTestCode.userFunc0x1257fc8 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -267,7 +267,7 @@ gdjs.LoadDataTestCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.LoadDataTestCode.userFunc0x1113910(runtimeScene);
+gdjs.LoadDataTestCode.userFunc0x1257fc8(runtimeScene);
 
 }
 

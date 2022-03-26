@@ -196,7 +196,7 @@ gdjs.copyArray(runtimeScene.getObjects("close"), gdjs.VerificationFormCode.GDclo
 }
 
 
-};gdjs.VerificationFormCode.userFunc0x1096558 = function(runtimeScene) {
+};gdjs.VerificationFormCode.userFunc0x7304c0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -267,7 +267,7 @@ gdjs.VerificationFormCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.VerificationFormCode.userFunc0x1096558(runtimeScene);
+gdjs.VerificationFormCode.userFunc0x7304c0(runtimeScene);
 
 }
 
