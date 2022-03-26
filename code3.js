@@ -47,10 +47,6 @@ gdjs.MyProfileCode.GDNoInternetBackgroundObjects1= [];
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects2= [];
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects3= [];
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects4= [];
-gdjs.MyProfileCode.GDLoadingObjects1= [];
-gdjs.MyProfileCode.GDLoadingObjects2= [];
-gdjs.MyProfileCode.GDLoadingObjects3= [];
-gdjs.MyProfileCode.GDLoadingObjects4= [];
 gdjs.MyProfileCode.GDBackground2Objects1= [];
 gdjs.MyProfileCode.GDBackground2Objects2= [];
 gdjs.MyProfileCode.GDBackground2Objects3= [];
@@ -338,7 +334,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtsExt__InternetConnectivity__
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16803716);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18130604);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -369,7 +365,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = !(gdjs.evtsExt__InternetConnectivity
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16804940);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18131980);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -673,7 +669,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16821444);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18163308);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -695,7 +691,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNu
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16830196);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18169036);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -727,7 +723,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16832124);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18182268);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -754,7 +750,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16832900);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18184388);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -781,7 +777,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16834500);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18185996);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -808,7 +804,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16835348);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18187572);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -835,7 +831,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16836532);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18189444);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -869,7 +865,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16838156);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18191524);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -896,7 +892,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16838932);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18193620);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -923,7 +919,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16840556);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18194012);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -1001,7 +997,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16843900);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18199988);
 }
 }}
 }
@@ -1044,7 +1040,7 @@ for(var i = 0, k = 0, l = gdjs.MyProfileCode.GDAddInstaObjects2.length;i<l;++i) 
 gdjs.MyProfileCode.GDAddInstaObjects2.length = k;}if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16845628);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18203052);
 }
 }}
 }
@@ -1087,7 +1083,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16847988);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18206252);
 }
 }}
 }
@@ -1130,7 +1126,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16850052);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18209100);
 }
 }}
 }
@@ -1173,7 +1169,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16851588);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18212012);
 }
 }}
 }
@@ -1283,7 +1279,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16853908);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18214204);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -1462,7 +1458,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16856188);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18216612);
 }
 }}
 }
@@ -1504,7 +1500,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16865644);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18230644);
 }
 }}
 }
@@ -1538,7 +1534,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16872868);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18241540);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -1764,7 +1760,7 @@ gdjs.MyProfileCode.condition2IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16876028);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18245180);
 }
 }}
 }
@@ -1799,7 +1795,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16883364);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18256148);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2038,7 +2034,7 @@ for(var i = 0, k = 0, l = gdjs.MyProfileCode.GDEditFrameObjects2.length;i<l;++i)
 gdjs.MyProfileCode.GDEditFrameObjects2.length = k;}if ( gdjs.MyProfileCode.condition4IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition5IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16886884);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18260868);
 }
 }}
 }
@@ -2153,7 +2149,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16899020);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18284988);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2180,7 +2176,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16900900);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18287716);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2210,7 +2206,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16902692);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18290212);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2278,7 +2274,7 @@ for(var i = 0, k = 0, l = gdjs.MyProfileCode.GDSavePromtObjects2.length;i<l;++i)
 gdjs.MyProfileCode.GDSavePromtObjects2.length = k;}if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16888988);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18265108);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2449,7 +2445,7 @@ gdjs.MyProfileCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition2IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16907340);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18297492);
 }
 }}
 }
@@ -2490,7 +2486,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16909956);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18301580);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2519,7 +2515,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16911740);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18304708);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2546,7 +2542,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16913644);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18307764);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2574,7 +2570,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16916572);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18314028);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2850,7 +2846,7 @@ gdjs.MyProfileCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.MyProfileCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition2IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16923780);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18325052);
 }
 }}
 }
@@ -2935,7 +2931,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16936268);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18347724);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -2957,7 +2953,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16937652);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18349356);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3083,7 +3079,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16944692);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18359836);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3105,7 +3101,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16946324);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18361180);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3127,7 +3123,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16947676);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18362884);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3145,7 +3141,7 @@ if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
 gdjs.MyProfileCode.condition0IsTrue_0.val = false;
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition0IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16941836);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18355564);
 }
 }if (gdjs.MyProfileCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("BottomContainter"), gdjs.MyProfileCode.GDBottomContainterObjects2);
@@ -3233,7 +3229,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16949236);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18364524);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3289,7 +3285,7 @@ for(var i = 0, k = 0, l = gdjs.MyProfileCode.GDPleasewaitObjects1.length;i<l;++i
 gdjs.MyProfileCode.GDPleasewaitObjects1.length = k;}if ( gdjs.MyProfileCode.condition2IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition3IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16950428);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18365900);
 }
 }}
 }
@@ -3327,7 +3323,7 @@ gdjs.MyProfileCode.condition0IsTrue_0.val = !(gdjs.evtTools.firebaseTools.auth.i
 }if ( gdjs.MyProfileCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MyProfileCode.conditionTrue_1 = gdjs.MyProfileCode.condition1IsTrue_0;
-gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16816260);
+gdjs.MyProfileCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18152620);
 }
 }}
 if (gdjs.MyProfileCode.condition1IsTrue_0.val) {
@@ -3502,10 +3498,6 @@ gdjs.MyProfileCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects2.length = 0;
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects3.length = 0;
 gdjs.MyProfileCode.GDNoInternetBackgroundObjects4.length = 0;
-gdjs.MyProfileCode.GDLoadingObjects1.length = 0;
-gdjs.MyProfileCode.GDLoadingObjects2.length = 0;
-gdjs.MyProfileCode.GDLoadingObjects3.length = 0;
-gdjs.MyProfileCode.GDLoadingObjects4.length = 0;
 gdjs.MyProfileCode.GDBackground2Objects1.length = 0;
 gdjs.MyProfileCode.GDBackground2Objects2.length = 0;
 gdjs.MyProfileCode.GDBackground2Objects3.length = 0;

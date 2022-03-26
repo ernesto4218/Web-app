@@ -35,9 +35,6 @@ gdjs.LoadDataTestCode.GDNoInternetObjects3= [];
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects1= [];
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects2= [];
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects3= [];
-gdjs.LoadDataTestCode.GDLoadingObjects1= [];
-gdjs.LoadDataTestCode.GDLoadingObjects2= [];
-gdjs.LoadDataTestCode.GDLoadingObjects3= [];
 gdjs.LoadDataTestCode.GDCopyObjects1= [];
 gdjs.LoadDataTestCode.GDCopyObjects2= [];
 gdjs.LoadDataTestCode.GDCopyObjects3= [];
@@ -163,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("Leaderboard"), gdjs.LoadDataTestCode.GDL
 gdjs.LoadDataTestCode.condition0IsTrue_0.val = false;
 {
 {gdjs.LoadDataTestCode.conditionTrue_1 = gdjs.LoadDataTestCode.condition0IsTrue_0;
-gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16752092);
+gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18066076);
 }
 }if (gdjs.LoadDataTestCode.condition0IsTrue_0.val)
 {
@@ -185,7 +182,7 @@ gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().trigg
 }
 
 
-};gdjs.LoadDataTestCode.userFunc0xa04e78 = function(runtimeScene) {
+};gdjs.LoadDataTestCode.userFunc0x1113910 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -270,7 +267,7 @@ gdjs.LoadDataTestCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.LoadDataTestCode.userFunc0xa04e78(runtimeScene);
+gdjs.LoadDataTestCode.userFunc0x1113910(runtimeScene);
 
 }
 
@@ -342,7 +339,7 @@ gdjs.LoadDataTestCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariabl
 }if ( gdjs.LoadDataTestCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LoadDataTestCode.conditionTrue_1 = gdjs.LoadDataTestCode.condition1IsTrue_0;
-gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16778076);
+gdjs.LoadDataTestCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18105172);
 }
 }}
 if (gdjs.LoadDataTestCode.condition1IsTrue_0.val) {
@@ -434,9 +431,6 @@ gdjs.LoadDataTestCode.GDNoInternetObjects3.length = 0;
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects2.length = 0;
 gdjs.LoadDataTestCode.GDNoInternetBackgroundObjects3.length = 0;
-gdjs.LoadDataTestCode.GDLoadingObjects1.length = 0;
-gdjs.LoadDataTestCode.GDLoadingObjects2.length = 0;
-gdjs.LoadDataTestCode.GDLoadingObjects3.length = 0;
 gdjs.LoadDataTestCode.GDCopyObjects1.length = 0;
 gdjs.LoadDataTestCode.GDCopyObjects2.length = 0;
 gdjs.LoadDataTestCode.GDCopyObjects3.length = 0;

@@ -23,8 +23,6 @@ gdjs.clockCode.GDNoInternetObjects1= [];
 gdjs.clockCode.GDNoInternetObjects2= [];
 gdjs.clockCode.GDNoInternetBackgroundObjects1= [];
 gdjs.clockCode.GDNoInternetBackgroundObjects2= [];
-gdjs.clockCode.GDLoadingObjects1= [];
-gdjs.clockCode.GDLoadingObjects2= [];
 gdjs.clockCode.GDtimeObjects1= [];
 gdjs.clockCode.GDtimeObjects2= [];
 gdjs.clockCode.GDdateObjects1= [];
@@ -48,7 +46,7 @@ gdjs.clockCode.condition1IsTrue_1 = {val:false};
 gdjs.clockCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0xfba600 = function(runtimeScene) {
+gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDchannelObjects1Objects = Hashtable.newFrom({"channel": gdjs.clockCode.GDchannelObjects1});gdjs.clockCode.mapOfGDgdjs_46clockCode_46GDtutorialObjects1Objects = Hashtable.newFrom({"tutorial": gdjs.clockCode.GDtutorialObjects1});gdjs.clockCode.userFunc0x10d1828 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -143,7 +141,7 @@ gdjs.clockCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.clockCode.condition0IsTrue_0.val ) {
 {
 {gdjs.clockCode.conditionTrue_1 = gdjs.clockCode.condition1IsTrue_0;
-gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17283404);
+gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18868372);
 }
 }}
 if (gdjs.clockCode.condition1IsTrue_0.val) {
@@ -164,7 +162,7 @@ gdjs.clockCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.clockCode.condition0IsTrue_0.val ) {
 {
 {gdjs.clockCode.conditionTrue_1 = gdjs.clockCode.condition1IsTrue_0;
-gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17284300);
+gdjs.clockCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18869828);
 }
 }}
 if (gdjs.clockCode.condition1IsTrue_0.val) {
@@ -184,7 +182,7 @@ if (gdjs.clockCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.clockCode.userFunc0xfba600(runtimeScene);
+gdjs.clockCode.userFunc0x10d1828(runtimeScene);
 
 }
 
@@ -218,8 +216,6 @@ gdjs.clockCode.GDNoInternetObjects1.length = 0;
 gdjs.clockCode.GDNoInternetObjects2.length = 0;
 gdjs.clockCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.clockCode.GDNoInternetBackgroundObjects2.length = 0;
-gdjs.clockCode.GDLoadingObjects1.length = 0;
-gdjs.clockCode.GDLoadingObjects2.length = 0;
 gdjs.clockCode.GDtimeObjects1.length = 0;
 gdjs.clockCode.GDtimeObjects2.length = 0;
 gdjs.clockCode.GDdateObjects1.length = 0;

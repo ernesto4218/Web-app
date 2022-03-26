@@ -35,9 +35,6 @@ gdjs.IntroCode.GDNoInternetObjects3= [];
 gdjs.IntroCode.GDNoInternetBackgroundObjects1= [];
 gdjs.IntroCode.GDNoInternetBackgroundObjects2= [];
 gdjs.IntroCode.GDNoInternetBackgroundObjects3= [];
-gdjs.IntroCode.GDLoadingObjects1= [];
-gdjs.IntroCode.GDLoadingObjects2= [];
-gdjs.IntroCode.GDLoadingObjects3= [];
 gdjs.IntroCode.GDIntroObjects1= [];
 gdjs.IntroCode.GDIntroObjects2= [];
 gdjs.IntroCode.GDIntroObjects3= [];
@@ -92,7 +89,7 @@ gdjs.IntroCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.IntroCode.condition1IsTrue_0.val ) {
 {
 {gdjs.IntroCode.conditionTrue_1 = gdjs.IntroCode.condition2IsTrue_0;
-gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16554892);
+gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14563492);
 }
 }}
 }
@@ -118,7 +115,7 @@ gdjs.IntroCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.IntroCode.condition0IsTrue_0.val ) {
 {
 {gdjs.IntroCode.conditionTrue_1 = gdjs.IntroCode.condition1IsTrue_0;
-gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(16556980);
+gdjs.IntroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14565300);
 }
 }}
 if (gdjs.IntroCode.condition1IsTrue_0.val) {
@@ -416,9 +413,6 @@ gdjs.IntroCode.GDNoInternetObjects3.length = 0;
 gdjs.IntroCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.IntroCode.GDNoInternetBackgroundObjects2.length = 0;
 gdjs.IntroCode.GDNoInternetBackgroundObjects3.length = 0;
-gdjs.IntroCode.GDLoadingObjects1.length = 0;
-gdjs.IntroCode.GDLoadingObjects2.length = 0;
-gdjs.IntroCode.GDLoadingObjects3.length = 0;
 gdjs.IntroCode.GDIntroObjects1.length = 0;
 gdjs.IntroCode.GDIntroObjects2.length = 0;
 gdjs.IntroCode.GDIntroObjects3.length = 0;

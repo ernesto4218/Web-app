@@ -35,9 +35,6 @@ gdjs.JoinGCCode.GDNoInternetObjects3= [];
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects1= [];
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects2= [];
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects3= [];
-gdjs.JoinGCCode.GDLoadingObjects1= [];
-gdjs.JoinGCCode.GDLoadingObjects2= [];
-gdjs.JoinGCCode.GDLoadingObjects3= [];
 gdjs.JoinGCCode.GDClaimObjects1= [];
 gdjs.JoinGCCode.GDClaimObjects2= [];
 gdjs.JoinGCCode.GDClaimObjects3= [];
@@ -255,7 +252,7 @@ for(var i = 0, k = 0, l = gdjs.JoinGCCode.GDContentObjects1.length;i<l;++i) {
 gdjs.JoinGCCode.GDContentObjects1.length = k;}if ( gdjs.JoinGCCode.condition0IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition1IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17663220);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19385644);
 }
 }}
 if (gdjs.JoinGCCode.condition1IsTrue_0.val) {
@@ -331,7 +328,7 @@ gdjs.JoinGCCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableStrin
 }if ( gdjs.JoinGCCode.condition1IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition2IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17667268);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19389252);
 }
 }}
 }
@@ -367,7 +364,7 @@ gdjs.JoinGCCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.JoinGCCode.condition1IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition2IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17669172);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19391092);
 }
 }}
 }
@@ -400,7 +397,7 @@ gdjs.JoinGCCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.JoinGCCode.condition1IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition2IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17631540);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19392324);
 }
 }}
 }
@@ -464,7 +461,7 @@ gdjs.JoinGCCode.condition3IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.JoinGCCode.condition3IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition4IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17665044);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19395572);
 }
 }}
 }
@@ -494,7 +491,7 @@ for(var i = 0, k = 0, l = gdjs.JoinGCCode.GDClaimObjects1.length;i<l;++i) {
 gdjs.JoinGCCode.GDClaimObjects1.length = k;}if ( gdjs.JoinGCCode.condition0IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition1IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17616060);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19396324);
 }
 }}
 if (gdjs.JoinGCCode.condition1IsTrue_0.val) {
@@ -529,7 +526,7 @@ gdjs.JoinGCCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.JoinGCCode.condition1IsTrue_0.val ) {
 {
 {gdjs.JoinGCCode.conditionTrue_1 = gdjs.JoinGCCode.condition2IsTrue_0;
-gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17656356);
+gdjs.JoinGCCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19398156);
 }
 }}
 }
@@ -581,9 +578,6 @@ gdjs.JoinGCCode.GDNoInternetObjects3.length = 0;
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects2.length = 0;
 gdjs.JoinGCCode.GDNoInternetBackgroundObjects3.length = 0;
-gdjs.JoinGCCode.GDLoadingObjects1.length = 0;
-gdjs.JoinGCCode.GDLoadingObjects2.length = 0;
-gdjs.JoinGCCode.GDLoadingObjects3.length = 0;
 gdjs.JoinGCCode.GDClaimObjects1.length = 0;
 gdjs.JoinGCCode.GDClaimObjects2.length = 0;
 gdjs.JoinGCCode.GDClaimObjects3.length = 0;

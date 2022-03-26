@@ -23,8 +23,6 @@ gdjs.Claim_32ReferralCode.GDNoInternetObjects1= [];
 gdjs.Claim_32ReferralCode.GDNoInternetObjects2= [];
 gdjs.Claim_32ReferralCode.GDNoInternetBackgroundObjects1= [];
 gdjs.Claim_32ReferralCode.GDNoInternetBackgroundObjects2= [];
-gdjs.Claim_32ReferralCode.GDLoadingObjects1= [];
-gdjs.Claim_32ReferralCode.GDLoadingObjects2= [];
 gdjs.Claim_32ReferralCode.GDContentObjects1= [];
 gdjs.Claim_32ReferralCode.GDContentObjects2= [];
 gdjs.Claim_32ReferralCode.GDCollectObjects1= [];
@@ -52,7 +50,7 @@ gdjs.Claim_32ReferralCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBu
 }if ( gdjs.Claim_32ReferralCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Claim_32ReferralCode.conditionTrue_1 = gdjs.Claim_32ReferralCode.condition1IsTrue_0;
-gdjs.Claim_32ReferralCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17126268);
+gdjs.Claim_32ReferralCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18635972);
 }
 }}
 if (gdjs.Claim_32ReferralCode.condition1IsTrue_0.val) {
@@ -146,8 +144,6 @@ gdjs.Claim_32ReferralCode.GDNoInternetObjects1.length = 0;
 gdjs.Claim_32ReferralCode.GDNoInternetObjects2.length = 0;
 gdjs.Claim_32ReferralCode.GDNoInternetBackgroundObjects1.length = 0;
 gdjs.Claim_32ReferralCode.GDNoInternetBackgroundObjects2.length = 0;
-gdjs.Claim_32ReferralCode.GDLoadingObjects1.length = 0;
-gdjs.Claim_32ReferralCode.GDLoadingObjects2.length = 0;
 gdjs.Claim_32ReferralCode.GDContentObjects1.length = 0;
 gdjs.Claim_32ReferralCode.GDContentObjects2.length = 0;
 gdjs.Claim_32ReferralCode.GDCollectObjects1.length = 0;
